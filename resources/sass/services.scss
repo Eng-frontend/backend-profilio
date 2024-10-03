@@ -1,0 +1,394 @@
+body{
+    background-color: rgb(45, 48, 45);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+/* mobile */
+
+@media (min-width:320px) and (max-width:480px){
+
+    .pargraph1{
+        background-color: red;
+        height: 90px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: yellow;
+    }
+
+    .par_ser div{
+        background-color: red;
+        border-top-right-radius: 40px;
+        width: 85%;
+        height: 320px;
+        margin-left: 7.5%;
+        margin-top: 7%;
+    }
+
+    .par_ser div .fa-html5 , .fa-css3-alt , .fa-js , .fa-php ,.fa-laravel ,.fa-database ,.fa-react , .fa-diagram-project{
+        font-size: 120px;
+        margin-left: 4%;
+        margin-top: 4%;
+        color: yellow;
+    }
+    .par_ser div h1{
+        margin-left: 4%;
+        margin-top: 4%;
+        color: white;
+    }
+
+    .par_ser div p{
+        margin-left: 4%;
+        margin-top: 4%;
+        font-size: 18px;
+        color: white;
+
+    }
+
+    .top1{
+        background-color:yellow;
+        width: 55px;
+        height: 50px;
+        border-radius: 12px;
+        position: fixed;
+        top: 85%;
+        right: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top1 .fa-plane-up{
+
+        font-size: 30px;
+        color: red;
+    }
+
+}
+/* tablet */
+
+@media (min-width:480px) and (max-width:768px){
+
+    .pargraph1{
+        background-color: red;
+        height: 90px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: yellow;
+    }
+    .partab .frist{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+   .partab .frist div{
+
+    background-color: red;
+    width: 45%;
+    height: 400px;
+    margin-top: 8%;
+    border-top-right-radius: 40px;
+
+  }
+  .partab .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab .second div{
+
+background-color: red;
+width: 45%;
+height: 400px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+.partab .thred{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab .thred div{
+
+background-color: red;
+width: 45%;
+height: 400px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+.partab .fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab .fourth div{
+
+background-color: red;
+width: 45%;
+height: 350px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+  .partab div div .fa-html5 , .fa-css3-alt , .fa-js , .fa-php ,.fa-laravel ,.fa-database ,.fa-react ,.fa-diagram-project{
+    font-size: 120px;
+    margin-left: 4%;
+    margin-top: 4%;
+    color: yellow;
+}
+
+.partab div div h1{
+    margin-left: 4%;
+    margin-top: 4%;
+    color: white;
+}
+.partab div div p{
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 18px;
+    color: white;
+
+}
+.top2{
+    background-color:yellow;
+    width: 55px;
+    height: 50px;
+    border-radius: 12px;
+    position: fixed;
+    top: 85%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top2 .fa-plane-up{
+
+    font-size: 30px;
+    color: red;
+}
+}
+/* laptop */
+
+@media (min-width:768px) and (max-width:1024px){
+    .pargraph1{
+        background-color: red;
+        height: 90px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: yellow;
+    }
+
+    .partab1 .frist{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+   .partab1 .frist div{
+
+    background-color: red;
+    width: 45%;
+    height: 400px;
+    margin-top: 8%;
+    border-top-right-radius: 40px;
+
+  }
+  .partab1 .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab1 .second div{
+
+background-color: red;
+width: 45%;
+height: 400px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+.partab1 .thred{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab1 .thred div{
+
+background-color: red;
+width: 45%;
+height: 400px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+.partab1 .fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab1 .fourth div{
+
+background-color: red;
+width: 45%;
+height: 350px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+  .partab1 div div .fa-html5 , .fa-css3-alt , .fa-js , .fa-php ,.fa-laravel ,.fa-database ,.fa-react ,.fa-diagram-project{
+    font-size: 120px;
+    margin-left: 4%;
+    margin-top: 4%;
+    color: yellow;
+}
+
+.partab1 div div h1{
+    margin-left: 4%;
+    margin-top: 4%;
+    color: white;
+}
+.partab1 div div p{
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 18px;
+    color: white;
+
+}
+
+.top3{
+    background-color:yellow;
+    width: 55px;
+    height: 50px;
+    border-radius: 12px;
+    position: fixed;
+    top: 85%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top3 .fa-plane-up{
+
+    font-size: 30px;
+    color: red;
+}
+    
+}
+/* Desktop */
+
+@media (min-width:1024px) and (max-width:1200px){
+    .pargraph1{
+        background-color: red;
+        height: 90px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: yellow;
+    }
+
+    .partab22 .frist{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+   .partab22 .frist div{
+
+    background-color: red;
+    width: 45%;
+    height: 400px;
+    margin-top: 8%;
+    border-top-right-radius: 40px;
+
+  }
+  .partab22 .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab22 .second div{
+
+background-color: red;
+width: 45%;
+height: 400px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+.partab22 .thred{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab22 .thred div{
+
+background-color: red;
+width: 45%;
+height: 400px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+.partab22 .fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partab22 .fourth div{
+
+background-color: red;
+width: 45%;
+height: 350px;
+margin-top: 8%;
+border-top-right-radius: 40px;
+
+}
+  .partab22 div div .fa-html5 , .fa-css3-alt , .fa-js , .fa-php ,.fa-laravel ,.fa-database ,.fa-react ,.fa-diagram-project{
+    font-size: 120px;
+    margin-left: 4%;
+    margin-top: 4%;
+    color: yellow;
+}
+
+.partab22 div div h1{
+    margin-left: 4%;
+    margin-top: 4%;
+    color: white;
+}
+.partab22 div div p{
+    margin-left: 4%;
+    margin-top: 4%;
+    font-size: 18px;
+    color: white;
+
+}
+.top4{
+    background-color:yellow;
+    width: 55px;
+    height: 50px;
+    border-radius: 12px;
+    position: fixed;
+    top: 85%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top4 .fa-plane-up{
+
+    font-size: 30px;
+    color: red;
+}
+}

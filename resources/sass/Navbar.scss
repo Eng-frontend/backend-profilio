@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* mobile */
+
+@media (min-width:320px) and (max-width:480px){
+
+    .nav{
+
+        background-color: #1d1f25;
+        height: 70px;
+        // height: 350px;
+        overflow: hidden;
+        
+    }
+    
+
+    .par1{
+
+        height:70px;
+        background-color: black;
+        color: white;
+        overflow: hidden;
+    }
+
+    .par1 .right{
+        width: 25%;
+        height: 100%;
+        font-size: 30px;
+        background-color: red;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .par1 .left{
+        width: 25%;
+        height: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        background-color: red;
+        float:left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .par2 {
+         background-color:yellow;
+         height: 280px;
+         overflow: hidden;
+
+    }
+
+    .par2 ul li{
+        font-size: 22px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-bottom:40px;
+    }
+
+
+}
+
+
+/*Tablet */
+
+@media (min-width:480px) and (max-width:768px){
+
+    .nav{
+
+        background-color: #1d1f25;
+        height: 90px;
+        overflow: hidden;
+        
+    } 
+
+    .par1{
+
+        background-color: red;
+        width: 15%;
+        height: 100%; 
+        float: left; 
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+    }
+    .par1 .left{
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .par1 .right{
+        display: none;     
+    }
+    .par2{
+
+        background-color:yellow;
+        width: 85%;
+        height: 100%;     
+        float: right; 
+    }
+    .par2 ul{
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;
+        margin-top:35px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+
+/*laptop*/
+
+@media (min-width:768px) and (max-width:1024px){
+    .nav{
+
+        background-color: #1d1f25;
+        height: 95px;
+        overflow: hidden;
+        
+    } 
+
+    .par1{
+
+        background-color: red;
+        width: 15%;
+        height: 100%; 
+        float: left; 
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+    }
+
+    .par1 .left{
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .par1 .right{
+        display: none;     
+    }
+    .par2{
+
+        background-color:yellow;
+        width: 85%;
+        height: 100%;     
+        float: right; 
+    }
+    .par2 ul{
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;
+        margin-top:35px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+
+/*Desktop*/
+@media (min-width:1024px) and (max-width:1200px){
+    .nav{
+
+        background-color: #1d1f25;
+        height: 95px;
+        overflow: hidden;
+        
+    } 
+
+    .par1{
+
+        background-color: red;
+        width: 15%;
+        height: 100%; 
+        float: left; 
+        display: flex;
+        justify-content: center;
+        align-items: center;     
+    }
+
+    .par1 .left{
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .par1 .right{
+        display: none;     
+    }
+    .par2{
+
+        background-color:yellow;
+        width: 85%;
+        height: 100%;     
+        float: right; 
+    }
+    .par2 ul{
+        display: flex; 
+        align-items: center;
+        justify-content: space-around;
+        margin-top:35px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+
+}

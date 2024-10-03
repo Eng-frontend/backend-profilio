@@ -1,0 +1,84 @@
+/* navbar */
+let nav = document.getElementsByClassName("nav")[0];
+let partablet = document.getElementById("partablet");
+
+// Create a media query for 320px to 480px
+let mediaQuery = window.matchMedia("(min-width: 320px) and (max-width: 480px)");
+
+function handleNavChange(e) {
+    if (e.matches) {
+        partablet.style.display = "none";
+        nav.addEventListener("click", function () {
+            if (nav.style.height === "70px") {
+                nav.style.height = "350px";
+                nav.style.transition = "1s";
+            } else {
+                nav.style.height = "70px";
+                nav.style.transition = "1s";
+            }
+        });
+    }
+}
+
+handleNavChange(mediaQuery); // Check the initial state
+mediaQuery.addListener(handleNavChange); // Listen for changes
+
+/* profilio */
+
+/* button Here_me */
+let Here_Me_id = document.getElementById("Here_Me_id");
+if (Here_Me_id) {
+    Here_Me_id.onclick = function () {
+        setTimeout(() => {
+            location.href = "https://github.com/Eng-frontend";
+        }, 2000);
+    }
+}
+
+/* button Work_Me */
+let Work_Me_id = document.getElementById("Work_Me_id");
+if (Work_Me_id) {
+    Work_Me_id.onclick = function () {
+        setTimeout(() => {
+            location.href = "https://www.linkedin.com/in/mohamed-sherif-a56018286/";
+        }, 2000);
+    }
+}
+
+/* Handling media queries for 'par_id' */
+let par = document.getElementById("par_id");
+
+let mediaQuery_tablet = window.matchMedia("(min-width:480px) and (max-width:768px)");
+let mediaQuery_tablet2 = window.matchMedia("(min-width:768px) and (max-width:1024px)");
+let mediaQuery_tablet3 = window.matchMedia("(min-width:1024px) and (max-width:1200px)");
+
+function handleParDisplay() {
+    if (mediaQuery_tablet.matches || mediaQuery_tablet2.matches || mediaQuery_tablet3.matches) {
+        par.style.display = "none";
+    }
+}
+
+handleParDisplay(); // Check the initial state
+mediaQuery_tablet.addListener(handleParDisplay); // Listen for changes
+mediaQuery_tablet2.addListener(handleParDisplay);
+mediaQuery_tablet3.addListener(handleParDisplay);
+
+/* button Here_me_tablet */
+let Here_Me_id_tablet = document.getElementById("Here_Me_id_tablet");
+if (Here_Me_id_tablet) {
+    Here_Me_id_tablet.onclick = function () {
+        setTimeout(() => {
+            location.href = "https://github.com/Eng-frontend";
+        }, 2000);
+    }
+}
+
+/* button Work_Me_tablet */
+let Work_Me_id_tablet = document.getElementById("Work_Me_id_tablet");
+if (Work_Me_id_tablet) {
+    Work_Me_id_tablet.onclick = function () {
+        setTimeout(() => {
+            location.href = "https://www.linkedin.com/in/mohamed-sherif-a56018286/";
+        }, 2000);
+    }
+}
